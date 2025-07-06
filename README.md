@@ -19,7 +19,7 @@ website-lb/
 ├── index.html              # Startseite
 ├── features.html           # Features-Seite
 ├── technik.html            # Technik-Seite
-├── design.html             # Design-Seite
+├── design.html             # Design-Seite mit WebGL-Visualisierungen
 ├── kaufen.html             # Bestellen-Seite
 │
 ├── src/
@@ -28,14 +28,17 @@ website-lb/
 │   │
 │   ├── js/
 │   │   ├── main.js         # Hauptjavascript
-│   │   └── three.min.js    # Three.js Bibliothek für WebGL
+│   │   ├── three.min.js    # Three.js Bibliothek für WebGL
+│   │   └── webgl-components.js # WebGL-Visualisierungen und Animationen
 │   │
 │   └── images/             # Bilder und Icons
 │       ├── nero-logo.svg
 │       ├── nero-device.png
 │       └── ...
 │
-└── README.md               # Projektdokumentation
+├── LB_M293_V1.md          # Anforderungen und Bewertungskriterien für Modul 293
+├── LitscherAlwin_LB_M293_V1.md # Pflichtenheft
+└── README.md               # Projektübersicht
 ```
 
 ## Verwendete Technologien
