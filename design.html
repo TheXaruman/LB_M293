@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Erfahre mehr über das einzigartige Design des NER0 AI-Companions - Gehäuse, Portabilität und PC-Anbindung">
+    <meta name="author" content="Alwin Litscher">
+    <meta name="keywords" content="NER0 Design, Gehäuse, Portabilität, PC-Anbindung, Produktdesign">
+    <title>NER0 Design - Das ästhetische Konzept deines AI-Companions</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/three.min.js" defer></script>
+    <script src="src/js/main.js" defer></script>
+    <script src="src/js/webgl-components.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="text-logo">NER<span class="accent">0</span></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="technik.html">Technik</a></li>
+                <li><a href="design.html" class="active">Design</a></li>
+                <li><a href="kaufen.html">Bestellen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Design</h1>
+            <p class="subtitle">Form und Funktion in perfekter Harmonie</p>
+        </section>
+
+        <section class="design-detail">
+            <div class="design-image">
+                <div class="webgl-container" id="gehaeuse-webgl"></div>
+                <p class="image-description">Elegantes Aluminiumgehäuse mit minimalistischem Design</p>
+            </div>
+            <div class="design-description">
+                <h2>Gehäuse</h2>
+                <p>Das Gehäuse des NER0 wurde aus einem einzigen Block recyceltem Aluminium gefräst und bietet eine perfekte Balance zwischen Robustheit und Leichtigkeit. Die matte Oberfläche ist fingerabdruckresistent und verleiht dem Gerät eine hochwertige Haptik.</p>
+                <p>Die abgerundeten Kanten und die ergonomische Form machen NER0 angenehm in der Hand zu halten. Mit einer Dicke von nur 8,5 mm ist es eines der dünnsten Geräte seiner Klasse, ohne dabei Kompromisse bei der Stabilität einzugehen.</p>
+                <p>Das minimalistische Design wird durch dezente Akzente in der Signaturfarbe ergänzt, die dem Gerät eine unverwechselbare Identität verleihen. Die physischen Tasten sind präzise und bieten ein taktiles Feedback, das Qualität vermittelt.</p>
+                <p>Das Gehäuse ist nach IP68 zertifiziert, was bedeutet, dass NER0 staub- und wasserdicht ist und sogar kurzzeitiges Untertauchen übersteht. Die spezielle Beschichtung schützt zudem vor Kratzern und alltäglichen Gebrauchsspuren.</p>
+            </div>
+        </section>
+
+        <section class="design-detail reverse">
+            <div class="design-image">
+                <div class="webgl-container" id="portabilitaet-webgl"></div>
+                <p class="image-description">Kompaktes und leichtes Design für maximale Portabilität</p>
+            </div>
+            <div class="design-description">
+                <h2>Portabilität</h2>
+                <p>Mit einem Gewicht von nur 320 Gramm und einer Größe von 195 × 140 × 8,5 mm ist NER0 der perfekte Begleiter für unterwegs. Es passt problemlos in jede Tasche und ist leichter als viele Bücher oder Tablets.</p>
+                <p>Der integrierte Standfuß ermöglicht es, NER0 in verschiedenen Winkeln aufzustellen, was besonders praktisch ist, wenn du es als digitalen Assistenten auf deinem Schreibtisch oder Nachttisch verwenden möchtest.</p>
+                <p>Das mitgelieferte Premium-Etui aus veganem Leder schützt dein NER0 unterwegs und verfügt über eine spezielle Tasche für den Stylus. Das magnetische Verschlusssystem sorgt dafür, dass das Etui sicher geschlossen bleibt.</p>
+                <p>Dank der langen Akkulaufzeit und der Möglichkeit, NER0 über Solar aufzuladen, musst du dir keine Gedanken über Stromversorgung machen, selbst wenn du mehrere Tage unterwegs bist. Die Standby-Zeit von mehreren Wochen macht es zum idealen Reisebegleiter.</p>
+            </div>
+        </section>
+
+        <section class="design-detail">
+            <div class="design-image">
+                <div class="webgl-container" id="pc-anbindung-webgl"></div>
+                <p class="image-description">Nahtlose PC-Integration mit Cross-Device-Funktionalität</p>
+            </div>
+            <div class="design-description">
+                <h2>PC-Anbindung</h2>
+                <p>NER0 lässt sich nahtlos in deine bestehende Computerumgebung integrieren. Über den USB-C-Anschluss kann es als zweiter Bildschirm für deinen Computer verwendet werden, ideal für Notizen, Checklisten oder als dedizierter Kalender.</p>
+                <p>Die speziell entwickelte Software ermöglicht es dir, Inhalte per Drag & Drop zwischen deinem Computer und NER0 zu verschieben. Texte, Bilder und Dokumente können so einfach übertragen und auf dem E-Ink Display angezeigt werden.</p>
+                <p>Die Cross-Device-Funktionalität erlaubt es dir, Benachrichtigungen von deinem Computer oder Smartphone auf NER0 anzuzeigen und zu verwalten, ohne deine Arbeit unterbrechen zu müssen. Wichtige Mitteilungen werden priorisiert und diskret angezeigt.</p>
+                <p>Für Entwickler bietet NER0 eine offene API, die es ermöglicht, eigene Anwendungen und Integrationen zu erstellen. Die Entwicklungsumgebung ist kompatibel mit Python, JavaScript und anderen gängigen Programmiersprachen.</p>
+            </div>
+        </section>
+
+        <section class="design-detail reverse">
+            <div class="design-3d">
+                <div id="design-webgl-container" class="webgl-container"></div>
+            </div>
+            <div class="design-description">
+                <h2>Pixel-Haustier-Design</h2>
+                <p>Das charakteristische Merkmal von NER0 ist sein Pixel-Haustier-Design, das dem Gerät eine eigene Persönlichkeit verleiht. Die animierten Pixel-Grafiken reagieren auf deine Interaktionen und entwickeln sich im Laufe der Zeit weiter.</p>
+                <p>Das Design wurde von klassischen Tamagotchis und Pixel-Art inspiriert, kombiniert mit moderner Animation und KI-gesteuertem Verhalten. Die Pixel-Figur passt sich deiner Stimmung an und zeigt unterschiedliche Emotionen und Reaktionen.</p>
+                <p>Die Animation ist speziell für das E-Ink Display optimiert und verbraucht minimale Energie, während sie dennoch flüssig und ausdrucksstark ist. Die Pixel-Figur kann zwischen verschiedenen Zuständen wechseln, von aktiv bis ruhend.</p>
+                <p>Du kannst das Aussehen deines Pixel-Haustiers anpassen und aus verschiedenen Charakteren und Stilen wählen. Mit der Zeit schaltest du weitere Anpassungsoptionen frei, die dein NER0 noch persönlicher machen.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="text-logo-small">NER<span class="accent">0</span></div>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="technik.html">Technik</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="kaufen.html">Bestellen</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2025 NER0 Technologies</p>
+                <p>Erstellt von Alwin Litscher</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Design WebGL Container initialisieren
+            if (typeof initDesignWebGLContainers === 'function') {
+                initDesignWebGLContainers();
+            }
+            
+            // Einzelne WebGL-Container für die Designdetails initialisieren
+            if (typeof initWebGLContainer === 'function') {
+                // Gehäuse WebGL
+                initWebGLContainer('gehaeuse-webgl', 0xff9913);
+                
+                // Portabilität WebGL
+                initWebGLContainer('portabilitaet-webgl', 0x66cc66);
+                
+                // PC-Anbindung WebGL
+                initWebGLContainer('pc-anbindung-webgl', 0x3399ff);
+            }
+        });
+    </script>
+</body>
+</html>

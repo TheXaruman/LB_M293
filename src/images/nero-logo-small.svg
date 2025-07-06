@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="30" viewBox="0 0 80 30">
+  <style>
+    .text { font-family: 'Arial', sans-serif; font-weight: bold; }
+    .main-text { font-size: 18px; fill: #ffffff; }
+    .accent { fill: #ff9913; }
+  </style>
+  <text x="5" y="20" class="text main-text">NER<tspan class="accent">0</tspan></text>
+</svg>
