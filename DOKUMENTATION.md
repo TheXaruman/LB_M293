@@ -79,6 +79,9 @@ Alle Verlinkungen im Navigationsmenü funktionieren korrekt und führen zu den e
 ### 3.5 W3C-Validierung (CSS)
 Das CSS wurde mit dem W3C CSS Validator geprüft und enthält keine Fehler oder Warnungen.
 
+![image](https://github.com/user-attachments/assets/70d728a6-715a-4d78-89a9-7cdadcc3967d)
+
+
 Der Screenshot zeigt das grüne Validierungsergebnis des W3C CSS Validators mit dem Text "Gratulation! Es wurden keine Fehler gefunden" für die Website https://lbm293alwin.netlify.app/ (CSS level 3 + SVG).
 
 ### 3.6 Urheberrecht
@@ -95,6 +98,9 @@ Die Website wurde erfolgreich auf zwei Plattformen veröffentlicht:
 
 ### 4.2 W3C-Validierung (HTML)
 Alle HTML-Seiten wurden mit dem W3C Markup Validator geprüft und sind valide HTML5-Dokumente ohne Fehler.
+
+![image](https://github.com/user-attachments/assets/767bccb5-2147-4e16-bd67-2423f322c5bc)
+
 
 Der Screenshot zeigt das grüne Validierungsergebnis des W3C HTML Validators mit dem Text "Document checking completed. No errors or warnings to show." für die Website https://lbm293alwin.netlify.app/. Die Validierung wurde mit dem HTML-Parser durchgeführt und bestätigt, dass alle HTML-Seiten des Projekts den Standards entsprechen.
 
