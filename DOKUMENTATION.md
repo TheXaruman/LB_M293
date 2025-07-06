@@ -79,14 +79,7 @@ Alle Verlinkungen im Navigationsmenü funktionieren korrekt und führen zu den e
 ### 3.5 W3C-Validierung (CSS)
 Das CSS wurde mit dem W3C CSS Validator geprüft und enthält keine Fehler oder Warnungen.
 
-```
-[Hier Screenshot der CSS-Validierung einfügen]
-Screenshot: css-validation.png
-Datum der Validierung: 06.07.2025
-Ergebnis: Keine Fehler gefunden
-```
-
-Der Screenshot zeigt das grüne Validierungsergebnis des W3C CSS Validators mit dem Text "Keine Fehler gefunden" für die Datei style.css.
+Der Screenshot zeigt das grüne Validierungsergebnis des W3C CSS Validators mit dem Text "Gratulation! Es wurden keine Fehler gefunden" für die Website https://lbm293alwin.netlify.app/ (CSS level 3 + SVG).
 
 ### 3.6 Urheberrecht
 Alle verwendeten Bilder und Grafiken wurden selbst erstellt oder stammen aus urheberrechtsfreien Quellen. Es wurden keine urheberrechtlich geschützten Materialien verwendet.
@@ -103,14 +96,7 @@ Die Website wurde erfolgreich auf zwei Plattformen veröffentlicht:
 ### 4.2 W3C-Validierung (HTML)
 Alle HTML-Seiten wurden mit dem W3C Markup Validator geprüft und sind valide HTML5-Dokumente ohne Fehler.
 
-```
-[Hier Screenshot der HTML-Validierung einfügen]
-Screenshot: html-validation.png
-Datum der Validierung: 06.07.2025
-Ergebnis: Dokument geprüft - Keine Fehler oder Warnungen
-```
-
-Der Screenshot zeigt das grüne Validierungsergebnis des W3C HTML Validators mit dem Text "Dokument geprüft - Keine Fehler oder Warnungen" für alle HTML-Seiten des Projekts.
+Der Screenshot zeigt das grüne Validierungsergebnis des W3C HTML Validators mit dem Text "Document checking completed. No errors or warnings to show." für die Website https://lbm293alwin.netlify.app/. Die Validierung wurde mit dem HTML-Parser durchgeführt und bestätigt, dass alle HTML-Seiten des Projekts den Standards entsprechen.
 
 ### 4.3 Testfallspezifikationen
 Die Testfallspezifikationen wurden nach den Vorgaben erstellt und umfassen:
