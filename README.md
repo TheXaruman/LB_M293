@@ -7,8 +7,8 @@ Diese Website präsentiert das fiktive Produkt "NER0" - ein AI-Companion-Gerät 
 ## Funktionen
 
 - Responsive Design für Desktop und Mobile
-- WebGL-Integration für 3D-Produktvisualisierung
-- Animierte Elemente
+- WebGL-Integration mit einfachen, symbolischen Produktvisualisierungen
+- Minimale Animationen für bessere Performance
 - W3C-validiertes HTML5 und CSS3
 
 ## Projektstruktur
@@ -44,6 +44,15 @@ website-lb/
 - CSS3
 - JavaScript
 - Three.js für WebGL-Integration
+
+## WebGL-Visualisierungen
+
+Die Website verwendet einfache geometrische Formen für die WebGL-Visualisierungen:
+- Gehäuse: Einfaches Quadrat mit minimaler Schwebeanimation
+- Portabilität: Einfaches Dreieck mit minimaler Schwebeanimation
+- PC-Anbindung: Einfacher Kreis mit minimaler Schwebeanimation
+
+Diese vereinfachten Symbole ersetzen die ursprünglich komplexeren 3D-Modelle, um die Performance zu verbessern und die visuelle Klarheit zu erhöhen.
 
 ## Farben
 
